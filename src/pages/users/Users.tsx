@@ -1,10 +1,10 @@
-import { Col, Row } from "react-bootstrap";
-import { UsersData } from "./UsersData";
-import UsersTable from "./UsersTable";
+// import { Col, Row } from "react-bootstrap";
+// import { UsersData } from "./UsersData";
+// import UsersTable from "./UsersTable";
 const Users = () => {
   return (
     <div className="users">
-      <h3 className="users-header">Users</h3>
+      {/* <h3 className="users-header">Users</h3>
       <div className="users__center">
         {UsersData.map((item, index) => {
           return (
@@ -30,7 +30,7 @@ const Users = () => {
       </div>
       <div className="users__table">
         <UsersTable />
-      </div>
+      </div> */}
     </div>
   );
 };
