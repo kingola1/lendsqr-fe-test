@@ -38,6 +38,7 @@ const Login = () => {
       localStorage.setItem("user-info", JSON.stringify(userDetails));
       navigate("/dashboard");
     }
+    navigate("/dashboard");
   };
 
   const toggleShow = (event: any) => {
