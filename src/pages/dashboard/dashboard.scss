@@ -1,0 +1,39 @@
+@use "../../scss/abstract/" as *;
+
+.page-set {
+  // padding-left: 384px;
+  position: fixed;
+  background-color: #f7f7f7;
+  padding: 30px 50px 0 30px;
+  width: calc(100% - 222px);
+  // width: calc(100% - 105px);
+  margin: 0 auto;
+  left: 19.5%;
+  top: 75px;
+  bottom: 0;
+  overflow-y: auto;
+
+  @include mobile {
+    width: 100vw;
+    position: fixed;
+    background-color: #f7f7f7;
+    padding: 0px 0px 0 0px;
+    margin: 0 auto;
+    left: 0;
+    top: 60px;
+    bottom: 0px;
+    overflow-y: auto;
+  }
+
+  &__content {
+    min-height: 100vh;
+    padding: 48px;
+    transition: all 0.5s ease-in-out;
+
+    @include mobile {
+      padding: 24px;
+      position: relative;
+      background-color: #ffeb;
+    }
+  }
+}

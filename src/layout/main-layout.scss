@@ -1,0 +1,53 @@
+@use "../scss/abstract/" as *;
+
+// .main {
+//   padding-left: $sideBarWidth;
+//   overflow-x: hidden;
+
+//   @include tablet {
+//     padding-left: 0;
+//     width: 100vw;
+//   }
+
+//   &__content {
+//     min-height: 100vh;
+//     padding: $spacing;
+//     transition: all 0.5s ease-in-out;
+
+//     @include tablet {
+//       padding: $mobileSpacing;
+//       position: relative;
+//       // background-color: $bodyBg;
+//       z-index: 100;
+//     }
+//   }
+// }
+
+// .sidebar-open .main__content {
+//   height: 100vh;
+//   overflow: hidden;
+//   border-top-left-radius: 30px;
+//   border-bottom-left-radius: 30px;
+//   transform: scale(0.8) translateX(50%);
+//   transition: all 0.5s ease-in-out;
+// }
+
+.main {
+  max-width: 100%;
+  margin: 0;
+
+  &__container {
+    // border: 2px solid red;
+    display: flex;
+    gap: 0.1rem;
+    // margin-top: .2rem;
+  }
+  .sidebar {
+    // border: 2px solid blue;
+    background-color: $white;
+    width: 400px;
+    max-width: 1450px;
+    padding-left: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+}

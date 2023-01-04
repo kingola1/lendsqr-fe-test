@@ -1,0 +1,223 @@
+@use "../../scss/abstract/" as *;
+
+.page-set {
+  // padding-left: 384px;
+  position: fixed;
+  background-color: #f7f7f7;
+  padding: 30px 50px 0 30px;
+  width: calc(100% - 222px);
+  // width: calc(100% - 105px);
+  margin: 0 auto;
+  left: 19.5%;
+  top: 75px;
+  bottom: 0;
+  overflow-y: auto;
+
+  @include mobile {
+    width: 100vw;
+    position: fixed;
+    background-color: #f7f7f7;
+    padding: 0px 0px 0 0px;
+    margin: 0 auto;
+    left: 0;
+    top: 60px;
+    bottom: 0px;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  &__content {
+    min-height: 100vh;
+    padding: 48px;
+    transition: all 0.5s ease-in-out;
+
+    @include mobile {
+      padding: 24px;
+      position: relative;
+      background-color: #ffeb;
+    }
+  }
+}
+.ov-x {
+  overflow-x: scroll;
+}
+
+.dashboard_page_title {
+  color: #545f7d;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.wrapper_card {
+  height: 208px;
+}
+
+.card_shadow {
+  box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(33, 63, 125, 0.06);
+}
+
+.padd {
+  padding-left: 46px;
+}
+
+.padd_sec {
+  padding-left: 60px;
+}
+
+.username_wrapper {
+  width: 70%;
+  position: relative;
+  margin-left: 30px;
+}
+.username_holder {
+  display: inline-block;
+}
+.userplace_holder {
+  height: 100px;
+  width: 100px;
+  left: 373px;
+  top: 320px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+.userprofile {
+  height: 100px;
+  padding-top: 30px;
+}
+.username {
+  color: #545f7d;
+  //   display: inline-block;
+  //   margin-left: 30px;
+  //   font-family: Work Sans;
+  //   font-size: 22px;
+  //   font-weight: 500;
+  //   line-height: 26px;
+  //   letter-spacing: 0px;
+  //   text-align: left;
+}
+.username--company {
+  color: #545f7d;
+  //   font-family: Work Sans;
+  //   font-size: 14px;
+  //   font-weight: 400;
+  //   line-height: 16px;
+  //   letter-spacing: 0px;
+  //   text-align: left;
+  //   display: block;
+  //   position: relative;
+  //   padding-left: 44%;
+  //   top: -44px;
+}
+.tier {
+  color: #545f7d;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 14%;
+}
+
+.card__wrap__bottom {
+  margin-top: 30px;
+}
+.profilecard {
+  margin-top: 30px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #213f7d;
+  padding-left: 29px;
+}
+
+.namestye {
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #213f7d;
+  text-transform: uppercase;
+}
+.nameplace {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #213f7d;
+}
+.hrstyle {
+  height: 0px;
+  width: 977px;
+  left: 373px;
+  top: 751px;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.balanceaccount {
+  color: #545f7d;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 14%;
+}
+.accountnumber {
+  color: #545f7d;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.link_text_dis {
+  padding-top: 3%;
+  padding-left: calc(var(--bs-gutter-x) * 1.5) !important;
+}
+.user_link_text {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.active_list {
+  color: rgba(57, 205, 204, 1);
+}
+.active_placeholder {
+  border-bottom: 3px solid #39cdcc;
+  padding-bottom: 4px;
+}
+
+.dashboard_count {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #213f7d;
+}
+.dashboard_placement {
+  width: 40px;
+  margin-left: 20px;
+}
+.iconplacement {
+  display: block;
+  margin-top: 5%;
+  padding-left: 20px;
+}

@@ -1,24 +1,17 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.scss';
-
-import Login from "./pages/auth/login";
-// import Users from "./pages/users/Users";
-// import UsersCard from "./pages/users/UsersCard";
+import routes from "./config/routes";
+import "./scss/App.scss";
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-      {/* <DashboardHeader />
-      <DashboardMenu /> */}
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
-        {/* <Route path="/users" element={<Users />} />
-        <Route path="/users/:id" element={<UsersCard />} /> */}
+        {routes.map((_, i) => (
+          <Route key={i} {..._} />
+        ))}
       </Routes>
     </BrowserRouter>
-    </div>
   );
 }
 

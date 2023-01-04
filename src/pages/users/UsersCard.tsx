@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { UsersData } from "./UsersData";
-import BackIcon from "../../assets/vectors/back.svg";
-import RoundIcon from "../../assets/vectors/round.svg";
+import UsersData from "./UsersData";
+// import BackIcon from "../../assets/vectors/back.svg";
+// import RoundIcon from "../../assets/vectors/round.svg";
 // import ProfileIcon from "../../assets/vectors/profile.svg";
-import StarIcon from "../../assets/vectors/star.svg";
-import NoStarIcon from "../../assets/vectors/star-no.svg";
+// import StarIcon from "../../assets/vectors/star.svg";
+// import NoStarIcon from "../../assets/vectors/star-no.svg";
 
 const UsersCard = () => {
-  const history = useNavigate();
-  const { id }: any = useParams();
-  const [user] = useState([UsersData[id]]);
+  // const history = useNavigate();
+  // const { id }: any = useParams();
+  // const [user] = useState([UsersData[id]]);
   return (
     <div>
-      {user.map((data) => {
+      {/* {user.map((data) => {
         return (
           <div className="users">
             <div className="view-users">
@@ -198,7 +198,8 @@ const UsersCard = () => {
             </div>
           </div>
         );
-      })}
+      })} */}
+      Yolo
     </div>
   );
 };
