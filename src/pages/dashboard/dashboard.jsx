@@ -8,7 +8,7 @@ const dashboard = () => {
     <MainLayout>
       <div className="page-set">
         <div className="text-center align-items-center mt-5">
-          <h1>WELCOME TO LENDSQR DASHBOARD</h1>
+          <h1 className="mg-top">WELCOME TO LENDSQR DASHBOARD</h1>
         </div>
       </div>
     </MainLayout>
