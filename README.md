@@ -4,7 +4,7 @@
 
 [![Image](./lend-sqr-screenshot.png)](https://david-aremu-lendsqr-fe-test.netlify.app)
 
-[Live link](https://david-aremu.lendsqr-fe-test.netlify.app)
+[Live link](https://david-aremu-lendsqr-fe-test.netlify.app)
 
 **Requirements**
 
