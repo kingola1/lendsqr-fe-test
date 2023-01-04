@@ -2,9 +2,9 @@
 
 ### Lendsqr is a Laas technology company which aim is to enable everyone around africa access loan fast and easy
 
-[![Image](./lend-sqr-screenshot.png)](http://david-aremu-lendsqr-fe-test.netlify.app)
+[![Image](./lend-sqr-screenshot.png)](https://david-aremu-lendsqr-fe-test.netlify.app)
 
-[Live link](http://david-aremu.lendsqr-fe-test.netlify.app)
+[Live link](https://david-aremu.lendsqr-fe-test.netlify.app)
 
 **Requirements**
 
